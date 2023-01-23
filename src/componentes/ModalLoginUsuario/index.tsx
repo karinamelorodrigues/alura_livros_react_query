@@ -24,13 +24,13 @@ const ModalLoginUsuario = ({ aberta, aoFechar, aoEfetuarLogin } : PropsModalLogi
             senha,
         }
         http.post('public/login', usuario)
-            .then(reposta => {
+            .then((reposta: any) => {
                 sessionStorage.setItem('token', reposta.data.access_token)
                 setEmail('')
                 setSenha('')
                 aoEfetuarLogin()
             })
-            .catch(erro => {
+            .catch((erro: any) => {
                 if (erro?.response?.data?.message) {
                     alert(erro.response.data.message)
                 } else {

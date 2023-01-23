@@ -12,8 +12,8 @@ const Pedidos = () => {
 
     useEffect(() => {
         http.get<IPedido[]>('pedidos')
-            .then(resposta => setPedidos(resposta.data))
-            .catch(erro => console.log(erro))
+            .then((resposta: any) => setPedidos(resposta.data))
+            .catch((erro: any) => console.log(erro))
     }, [])
 
     return (<section className="pedidos">

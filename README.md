@@ -36,4 +36,4 @@ Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no se
 
 ## 📚 Mais informações do curso
 
-O AluraBooks é o projeto utilizado durante toda a formação, e você pode navegar entre as branchs para encontrar o momento específico que está buscando.
+O AluraBooks é o projeto utilizado durante toda a formação, e você pode navegar entre as branchs para encontrar o momento específico que está buscando.# alura_livros_react_query
